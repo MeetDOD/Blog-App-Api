@@ -1,0 +1,5 @@
+1. main value is index.js, so all the file should connect to this file.
+2. database folder is responsible for establishing connect with mongodb cloud.
+3. model is used to make structure and schema's of the database.
+4. Routers is created to nevigate to particular api ( eg : /api/user )
+5. controllers is a functions for diiferent operations/api's is used for communication with mongodb.
