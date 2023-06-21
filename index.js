@@ -18,4 +18,7 @@ connection(username, password);
 app.use('/user',userRoutes);
 app.use('/posts',postRouter);
 
-app.listen(5000);
+const PORT = process.env.PORT
+app.listen(PORT,() => {
+    console.log('Me the Flash Fastest Man Alive !')
+});
